@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Friend Voting App</title>
+</head>
+<body>
+
+  <div>
+  <h1>Friend's Voting Game</h1>
+  <input type="text" id="friendInput" placeholder="Enter friend's name">
+  <button id="addFriendBtn">Add Friend</button>
+
+  <center><table id="friendsTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Votes</th>
+      </tr>
+    </thead>
+    <tbody id="outputArea">
+      <!-- Friend rows will be added here dynamically -->
+    </tbody>
+  </table>
+</center>
+</div>
+  
+
+<script src="app.js"></script>
+
+</body>
+</html>
